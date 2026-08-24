@@ -1,34 +1,59 @@
 <div align="center">
 
 # 🌐 Redes de Computadores 2 — IFSP Câmpus São Carlos
-### Bacharelado em Engenharia de Software / ADS
-**Repositório Acadêmico, Roteiros Práticos de Laboratório no Cisco Packet Tracer e Cálculos de Sub-redes IPv4**
+### Bacharelado em Engenharia de Software / Análise e Desenvolvimento de Sistemas (ADS)
+**Repositório Acadêmico, Roteiros Práticos de Laboratório no Cisco Packet Tracer, Cálculos de Sub-redes IPv4 e Administração de Servidores de Rede**
 
 [![IFSP](https://img.shields.io/badge/IFSP-Câmpus_São_Carlos-16A34A?style=for-the-badge&logo=curseforge&logoColor=white)](https://scl.ifsp.edu.br/)
-[![Disciplina](https://img.shields.io/badge/Disciplina-SCLRCO2_Redes_2-1E3A8A?style=for-the-badge&logo=cisco&logoColor=white)](https://github.com/RaFeltrim)
+[![Disciplina](https://img.shields.io/badge/Disciplina-SCLRCO2_Redes_2-1E3A8A?style=for-the-badge&logo=cisco&logoColor=white)](https://github.com/RaFeltrim/ifsp-redes-computadores-2)
 [![Cisco Packet Tracer](https://img.shields.io/badge/Cisco_Packet_Tracer-v8.2+-0284C7?style=for-the-badge&logo=cisco&logoColor=white)](https://www.netacad.com/)
+[![Linux Servers](https://img.shields.io/badge/Linux-Debian%20%7C%20Ubuntu%20Server-E95420?style=for-the-badge&logo=linux&logoColor=white)](https://debian.org)
 [![License](https://img.shields.io/badge/License-MIT-F59E0B?style=for-the-badge)](LICENSE)
-[![QA Status](https://img.shields.io/badge/QA_Validation-100%25_Approved-10B981?style=for-the-badge)](https://github.com/RaFeltrim)
+[![QA Status](https://img.shields.io/badge/QA_Validation-100%25_Approved-10B981?style=for-the-badge)](https://github.com/RaFeltrim/ifsp-redes-computadores-2)
 
 <p align="center">
-  <b>Docente:</b> Prof. Dr. Luiz Henrique Castelo Branco | <b>Discente:</b> <a href="https://github.com/RaFeltrim">Rafael Feltrim</a>
+  <b>Docente:</b> Prof. Dr. Luiz Henrique Castelo Branco (<a href="mailto:luiz.branco@ifsp.edu.br">luiz.branco@ifsp.edu.br</a>)<br/>
+  <b>Discente / Mantenedor:</b> <a href="https://github.com/RaFeltrim">Rafael Feltrim</a>
 </p>
 
 ---
 
 </div>
 
-## 📌 Sumário Executivo
+## 📌 Sumário Executivo & Planejamento Semestral
 
-Este repositório centraliza o material técnico, resoluções teóricas, memórias de cálculo de sub-redes IPv4 (FLSM/CIDR), scripts de configuração Cisco IOS e arquivos de simulação no **Cisco Packet Tracer** para a disciplina de **Redes de Computadores 2 (SCLRCO2)** do IFSP São Carlos.
+Este repositório centraliza todo o material técnico, resoluções teóricas, memórias de cálculo de sub-redes IPv4 (FLSM/CIDR), topologias no **Cisco Packet Tracer**, scripts de configuração Cisco IOS e laboratórios práticos em ambiente Linux para a disciplina de **Redes de Computadores 2 (SCLRCO2)** do IFSP São Carlos.
 
-O objetivo é servir como uma **base de conhecimento aberta, estruturada e de alta fidelidade técnica** para apoiar estudantes, pesquisadores e entusiastas de infraestrutura de redes nos estudos do Modelo OSI/TCP-IP, protocolos de roteamento, comutação em Camada 2/3 e arquitetura de redes corporativas.
+### 📅 Datas Importantes & Critérios de Avaliação (Moodle):
+- **(PT) Prova Teórico/Prática:** 19/10 (Peso: 40%)
+- **(EF) Exercícios de Fixação:** Entregas contínuas via Moodle (Peso: 20%)
+- **(TP) Trabalho Prático:** Início em 28/11 | Entrega em 14/12 (Peso: 40%)
+- **(IFA) Instrumento Final de Avaliação:** 18/12 às 08:30h
+
+$$\text{Média Final} = (\text{PT} \times 0{,}4) + (\text{TP} \times 0{,}4) + (\text{EF} \times 0{,}2)$$
 
 ---
 
-## 🗺️ Mapa de Entregas e Atividades Homologadas
+## 🗂️ Seções e Tópicos do Curso (Moodle)
 
-Todas as atividades foram resolvidas com memória de cálculo detalhada, fundamentação no Guia CCNA da Cisco e no livro *Comunicação de Dados e Redes de Computadores* (Forouzan), acompanhadas de diagramas de topologia e arquivos do simulador:
+O repositório está organizado de forma estrita e cronológica de acordo com as seções do Moodle da disciplina:
+
+| Seção / Tópico | Descrição & Escopo Prático | Status |
+| :--- | :--- | :---: |
+| [**`Tópico 0 - Boas vindas`**](Tópico%200%20-%20Boas%20vindas/README.md) | Apresentação da disciplina, vídeo institucional e **Atividade 01 (Avaliação Diagnóstica)** | 🟢 Concluído |
+| [**`Tópico 1 - Revisão endereçamento IPv4`**](Tópico%201%20-%20Revisão%20endereçamento%20IPv4/README.md) | Classes A a E, NetID/Broadcast, FLSM, 50 exercícios e **Atividades 02 a 07** com Packet Tracer | 🟢 Concluído |
+| [**`Tópico 2 - Configuração de Rotas`**](Tópico%202%20-%20Configuração%20de%20Rotas/README.md) | Roteamento em Camada 3 (L3), rotas estáticas (`ip route`), rota padrão e protocolos dinâmicos | ⏳ Planejado |
+| [**`Tópico 3 - Configuração de Serviços de Rede`**](Tópico%203%20-%20Configuração%20de%20Serviços%20de%20Rede/README.md) | Implementação no simulador: Servidor DHCP, Servidor DNS, HTTP/Web e E-mail | ⏳ Planejado |
+| [**`Tópico 4 - Montagem do ambiente virtual`**](Tópico%204%20-%20Montagem%20do%20ambiente%20virtual%20de%20trabalho/README.md) | Hipervisores (VirtualBox/VMware), Linux Debian/Ubuntu Server e adaptadores virtuais | ⏳ Planejado |
+| [**`Tópico 5 - Configurações Iniciais`**](Tópico%205%20-%20Configurações%20Iniciais/README.md) | Administração de rede no Linux, configuração de interfaces (`netplan`, `ifupdown`) e SSH | ⏳ Planejado |
+| [**`Tópico 6 - Serviços básicos`**](Tópico%206%20-%20Serviços%20básicos/README.md) | Servidores corporativos reais: DHCP (`isc-dhcp-server`), DNS (`bind9`), Web e Proxy (`Squid`) | ⏳ Planejado |
+| [**`Trabalho Prático Avaliativo`**](Trabalho%20Prático%20Avaliativo/README.md) | Projeto Final Integrador (28/11 a 14/12): Infraestrutura completa com Roteamento, DHCP, HTTP e Proxy | ⏳ Planejado |
+| [**`Avaliações`**](Avaliações/README.md) | Calendário, critérios e roteiros de revisão para a Prova PT (19/10) e IFA (18/12) | ⏳ Planejado |
+| [**`Materiais complementares`**](Materiais%20complementares%20e%20links%20interessantes/README.md) | RFCs oficiais (791, 1918, 4632), apostilas recomendadas, simuladores e cheatsheets | 🟢 Disponível |
+
+---
+
+## 🗺️ Mapa Consolidado de Entregas Homologadas (Atividades 01 a 07)
 
 | Atividade | Tema Central | Principais Conceitos & Protocolos | Documento PDF | Guia Markdown | Simulador / Script |
 | :---: | :--- | :--- | :---: | :---: | :---: |
@@ -44,8 +69,6 @@ Todas as atividades foram resolvidas com memória de cálculo detalhada, fundame
 
 ## 🖼️ Galeria de Topologias do Cisco Packet Tracer
 
-Abaixo estão representadas algumas das topologias de laboratório projetadas e documentadas no repositório:
-
 ### 1. Interligação de 3 LANs Heterogêneas com Roteador Cisco 2911 (Atividade 07)
 Roteamento inter-redes com prefixos `/28`, `/10` e `/25`, 3 Switches Catalyst 2960 e 12 estações com 100% de sucesso em ICMP Echo:
 <p align="center">
@@ -59,55 +82,6 @@ Divisão exata de uma rede Classe C `192.168.1.0/24` em 8 domínios de broadcast
 <p align="center">
   <img src="Tópico%201%20-%20Revisão%20endereçamento%20IPv4/Entregas%20via%20moodle/assets/diagrama_flsm_subredes.jpg" width="850" alt="Diagrama FLSM Atividade 06"/>
 </p>
-
----
-
-### 3. Isolamento de Setores (Vendas vs TI) e Servidores Web/FTP (Atividade 05 & 03)
-Demonstração de isolamento lógico em Camada 3 sem roteador e publicação de serviços HTTP na porta 80:
-<p align="center">
-  <img src="Tópico%201%20-%20Revisão%20endereçamento%20IPv4/Entregas%20via%20moodle/assets/topologia_setores_servidores_atv5.jpg" width="850" alt="Topologia Setores e Servidores"/>
-</p>
-
----
-
-## 📂 Estrutura de Diretórios do Repositório
-
-```text
-Redes de Computadores 2/
-├── .gitignore
-├── .prompts/                                        # Central de Engenharia de Prompts para Alunos
-│   ├── README.md                                    # Guia de uso do framework de prompts
-│   ├── 01_resolucao_teorica_e_calculo_subredes.md   # Prompt para cálculos de sub-redes e FLSM
-│   ├── 02_pipeline_geracao_topologias_packet_tracer.md # Prompt para geração de topologias visuais
-│   ├── 03_configuracao_cisco_ios_e_pkt.md           # Prompt para scripts Cisco IOS e arquivos PKT
-│   ├── 04_compilacao_relatorio_academico_pdf.md     # Prompt para diagramação e relatórios em PDF
-│   └── 05_quality_assurance_e_matriz_validacao.md   # Prompt para checklist e auditoria QA
-├── LICENSE
-├── README.md
-├── Tópico 0 - Avaliação diagnóstica/
-│   ├── Entrega-exercicio/
-│   │   └── 01. Avaliação Diagnóstica - Rafael F .pdf
-│   └── PDF aula/
-│       └── AVALIAÇÃO DIAGNÓSTICA_RDC.pdf
-└── Tópico 1 - Revisão endereçamento IPv4/
-    ├── Entregas via moodle/
-    │   ├── 01. Avaliação Diagnóstica - Rafael F .pdf
-    │   ├── 02. Classes de Redes (Pt 1) - Rafael F .pdf
-    │   ├── 03. Prática Packet Tracer (Pt 2) - Rafael F .pdf
-    │   ├── 03. Prática Packet Tracer (Pt 2) - Rafael F.md
-    │   ├── 04. Prática Packet Tracer (Pt 3) - Rafael F .pdf
-    │   ├── 05. Rede e Broadcast (Pt 4) - Rafael F .pdf
-    │   ├── 05. Rede e Broadcast (Pt 4) - Rafael F.md
-    │   ├── 06. Sub-redes (Pt 1) - Rafael F .pdf
-    │   ├── 06. Sub-redes (Pt 1) - Rafael F.md
-    │   ├── 07. Sub-redes (Pt 2) - Rafael F .pdf
-    │   ├── 07. Sub-redes (Pt 2) - Rafael F .pkt
-    │   ├── 07. Sub-redes (Pt 2) - Rafael F.md
-    │   ├── 07. Sub-redes (Pt 2) - Roteador R1.ios
-    │   └── assets/                                  # Diagramas técnicos vetoriais e prints
-    ├── PDFs aulas/                                  # Bibliografia e Guias Oficiais Cisco/Forouzan
-    └── PDFs exercícios/                             # Roteiros oficiais emitidos pelo IFSP
-```
 
 ---
 
@@ -131,18 +105,6 @@ Para que outros alunos possam reproduzir o mesmo padrão de eficiência, qualida
    git clone https://github.com/RaFeltrim/ifsp-redes-computadores-2.git
    ```
 3. Abra o arquivo `.pkt` desejado diretamente no simulador (ex: `07. Sub-redes (Pt 2) - Rafael F .pkt`).
-
-### Como carregar scripts Cisco IOS no Roteador:
-1. Clique sobre o Roteador no Packet Tracer e abra a aba **CLI**.
-2. Cole os blocos de configuração disponíveis nos arquivos `.ios` deste repositório (ex: `07. Sub-redes (Pt 2) - Roteador R1.ios`):
-   ```ios
-   Router> enable
-   Router# configure terminal
-   Router(config)# interface GigabitEthernet0/0
-   Router(config-if)# ip address 192.168.1.33 255.255.255.240
-   Router(config-if)# no shutdown
-   ```
-3. Realize os testes de conectividade disparando requisições ICMP (`ping`) a partir do *Command Prompt* dos computadores.
 
 ---
 
