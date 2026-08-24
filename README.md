@@ -53,7 +53,7 @@ O repositório está organizado de forma estrita e cronológica de acordo com as
 
 ---
 
-## 🗺️ Mapa Consolidado de Entregas Homologadas (Atividades 01 a 07)
+## 🗺️ Mapa Consolidado de Entregas Homologadas (Atividades 01 a 09)
 
 | Atividade | Tema Central | Principais Conceitos & Protocolos | Documento PDF | Guia Markdown | Simulador / Script |
 | :---: | :--- | :--- | :---: | :---: | :---: |
@@ -64,8 +64,8 @@ O repositório está organizado de forma estrita e cronológica de acordo com as
 | **`05`** | **Rede e Broadcast (Pt 4)** | 50 Exercícios Teórico-Práticos: 40 Cálculos de NetID/Broadcast/Hosts + 10 Laboratórios no Packet Tracer | [PDF](Tópico%201%20-%20Revisão%20endereçamento%20IPv4/Entregas%20via%20moodle/05.%20Rede%20e%20Broadcast%20(Pt%204)%20-%20Rafael%20F%20.pdf) | [MD](Tópico%201%20-%20Revisão%20endereçamento%20IPv4/Entregas%20via%20moodle/05.%20Rede%20e%20Broadcast%20(Pt%204)%20-%20Rafael%20F.md) | Multi-Switch |
 | **`06`** | **Sub-redes (Pt 1)** | Projeto de Sub-redes FLSM: Particionamento da rede `192.168.1.0/24` em 8 sub-redes `/27` (30 hosts cada) | [PDF](Tópico%201%20-%20Revisão%20endereçamento%20IPv4/Entregas%20via%20moodle/06.%20Sub-redes%20(Pt%201)%20-%20Rafael%20F%20.pdf) | [MD](Tópico%201%20-%20Revisão%20endereçamento%20IPv4/Entregas%20via%20moodle/06.%20Sub-redes%20(Pt%201)%20-%20Rafael%20F.md) | Diagrama FLSM |
 | **`07`** | **Sub-redes (Pt 2)** | Interligação de 3 LANs heterogêneas (`/28`, `/10` e `/25`) com Roteador Cisco 2911 e 12 estações de trabalho | [PDF](Tópico%201%20-%20Revisão%20endereçamento%20IPv4/Entregas%20via%20moodle/07.%20Sub-redes%20(Pt%202)%20-%20Rafael%20F%20.pdf) | [MD](Tópico%201%20-%20Revisão%20endereçamento%20IPv4/Entregas%20via%20moodle/07.%20Sub-redes%20(Pt%202)%20-%20Rafael%20F.md) | [PKT](Tópico%201%20-%20Revisão%20endereçamento%20IPv4/Entregas%20via%20moodle/07.%20Sub-redes%20(Pt%202)%20-%20Rafael%20F%20.pkt) / [IOS](Tópico%201%20-%20Revisão%20endereçamento%20IPv4/Entregas%20via%20moodle/07.%20Sub-redes%20(Pt%202)%20-%20Roteador%20R1.ios) |
-| **`08`** | **Sub-redes (Pt 3)** | 4 Laboratórios Universitários (30 hosts cada) interligados via Roteador Cisco L3 *(Prazo: 31/08)* | [Enunciado](Tópico%201%20-%20Revisão%20endereçamento%20IPv4/PDFs%20exercícios/Atv%208/Atividade%2008%20-%20Enunciado.txt) | — | Em elaboração |
-| **`09`** | **Sub-redes (Pt 4)** | *Addressing Subnetting Workbook Part 2* (Problems 6 a 15 + Validação de IPs) *(Prazo: 24/08)* | [Workbook](Tópico%201%20-%20Revisão%20endereçamento%20IPv4/PDFs%20exercícios/Atv%209/AddressingSubnettWBWorkbook-parte2.pdf) | — | Em resolução |
+| **`08`** | **Sub-redes (Pt 3)** | 4 Laboratórios Universitários (30 hosts cada) interligados via Roteador Cisco 2911 — FLSM /27 (30 hosts/lab) *(Prazo: 31/08)* | [PDF](Tópico%201%20-%20Revisão%20endereçamento%20IPv4/Entregas%20via%20moodle/08.%20Sub-redes%20(Pt%203)%20-%20Rafael%20F%20.pdf) | — | Topologia + IOS |
+| **`09`** | **Sub-redes (Pt 4)** | *Addressing Subnetting Workbook Part 2* — Problems 6 a 15 (Classes A, B e C FLSM) + Seção Valid/Non-Valid IP Addresses *(Prazo: 24/08)* | [PDF](Tópico%201%20-%20Revisão%20endereçamento%20IPv4/Entregas%20via%20moodle/09.%20Sub-redes%20(Pt%204)%20-%20Rafael%20F%20.pdf) | — | Cálculo FLSM |
 
 ---
 
