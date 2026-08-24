@@ -75,6 +75,13 @@ Demonstração de isolamento lógico em Camada 3 sem roteador e publicação de 
 ```text
 Redes de Computadores 2/
 ├── .gitignore
+├── .prompts/                                        # Central de Engenharia de Prompts para Alunos
+│   ├── README.md                                    # Guia de uso do framework de prompts
+│   ├── 01_resolucao_teorica_e_calculo_subredes.md   # Prompt para cálculos de sub-redes e FLSM
+│   ├── 02_pipeline_geracao_topologias_packet_tracer.md # Prompt para geração de topologias visuais
+│   ├── 03_configuracao_cisco_ios_e_pkt.md           # Prompt para scripts Cisco IOS e arquivos PKT
+│   ├── 04_compilacao_relatorio_academico_pdf.md     # Prompt para diagramação e relatórios em PDF
+│   └── 05_quality_assurance_e_matriz_validacao.md   # Prompt para checklist e auditoria QA
 ├── LICENSE
 ├── README.md
 ├── Tópico 0 - Avaliação diagnóstica/
@@ -101,6 +108,17 @@ Redes de Computadores 2/
     ├── PDFs aulas/                                  # Bibliografia e Guias Oficiais Cisco/Forouzan
     └── PDFs exercícios/                             # Roteiros oficiais emitidos pelo IFSP
 ```
+
+---
+
+## 🗂️ Central de Engenharia de Prompts (`.prompts/`)
+
+Para que outros alunos possam reproduzir o mesmo padrão de eficiência, qualidade matemática e evidenciamento visual, disponibilizamos templates estruturados na pasta [`.prompts/`](.prompts/README.md):
+- **Cálculo de Sub-redes:** [`01_resolucao_teorica_e_calculo_subredes.md`](.prompts/01_resolucao_teorica_e_calculo_subredes.md)
+- **Topologias Packet Tracer:** [`02_pipeline_geracao_topologias_packet_tracer.md`](.prompts/02_pipeline_geracao_topologias_packet_tracer.md)
+- **Scripts Cisco IOS:** [`03_configuracao_cisco_ios_e_pkt.md`](.prompts/03_configuracao_cisco_ios_e_pkt.md)
+- **Relatórios em PDF:** [`04_compilacao_relatorio_academico_pdf.md`](.prompts/04_compilacao_relatorio_academico_pdf.md)
+- **Auditoria de QA:** [`05_quality_assurance_e_matriz_validacao.md`](.prompts/05_quality_assurance_e_matriz_validacao.md)
 
 ---
 
