@@ -1,0 +1,13 @@
+Atividade 08 - endereçamento IP - sub-redes - prática com o simulador Packet Tracer - parte 3
+
+Enunciado Oficial (Moodle):
+Uma universidade contendo 4 laboratórios de informática distintos. Cada laboratório possui 30 máquinas.
+Calcule as sub-redes, configure e teste a rede de cada laboratório no simulador de rede. Para ilustrar, no simulador coloque pelo menos 03 máquinas em cada sub-rede.
+Também interligue essas redes com um roteador.
+
+Requisitos de Entrega:
+Entregar o arquivo em pdf mostrando os cálculos da sub-rede e o print desse cenário rodando no simulador de rede com as configurações de um host em cada sub-rede e da execução do ping de um host para o host de cada uma sub-rede.
+
+Prazos (Moodle):
+- Abertura: Monday, 31 Aug 2026, 08:00
+- Data de entrega: Monday, 31 Aug 2026, 11:30
