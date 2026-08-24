@@ -1,0 +1,62 @@
+! ====================================================================
+! IFSP - CAMPUS SAO CARLOS - REDES DE COMPUTADORES 2
+! ATIVIDADE 07: INTERLIGACAO DE 3 LANS COM ROTEADOR NO CISCO PACKET TRACER
+! DISCENTE: RAFAEL FELTRIM
+! ====================================================================
+
+version 15.1
+service timestamps log datetime msec
+service timestamps debug datetime msec
+no service password-encryption
+
+hostname R1-INTERLIGACAO
+
+!
+! ====================================================================
+! CONFIGURACAO DA INTERFACE LAN 1: 192.168.1.32/28
+! Gateway: 192.168.1.33 | Mascara: 255.255.255.240
+! ====================================================================
+interface GigabitEthernet0/0
+ description Gateway para LAN 1 (Sub-rede 192.168.1.32/28)
+ ip address 192.168.1.33 255.255.255.240
+ duplex auto
+ speed auto
+ no shutdown
+!
+
+! ====================================================================
+! CONFIGURACAO DA INTERFACE LAN 2: 172.0.0.0/10
+! Gateway: 172.0.0.1 | Mascara: 255.192.0.0
+! ====================================================================
+interface GigabitEthernet0/1
+ description Gateway para LAN 2 (Sub-rede 172.0.0.0/10)
+ ip address 172.0.0.1 255.192.0.0
+ duplex auto
+ speed auto
+ no shutdown
+!
+
+! ====================================================================
+! CONFIGURACAO DA INTERFACE LAN 3: 192.168.2.0/25
+! Gateway: 192.168.2.1 | Mascara: 255.255.255.128
+! ====================================================================
+interface GigabitEthernet0/2
+ description Gateway para LAN 3 (Sub-rede 192.168.2.0/25)
+ ip address 192.168.2.1 255.255.255.128
+ duplex auto
+ speed auto
+ no shutdown
+!
+
+ip classless
+ip forward-protocol nd
+no ip http server
+no ip http secure-server
+
+!
+line con 0
+line aux 0
+line vty 0 4
+ login
+!
+end
