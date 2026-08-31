@@ -1,0 +1,3 @@
+Uma faculdade contendo 2 laboratórios de informática distintos. Cada laboratório possui 45 máquinas.
+Calcule as sub-redes, configure e teste a rede de cada laboratório no simulador de rede. Para ilustrar, no simulador coloque pelo menos 03 máquinas em cada sub-rede.
+Entregar o arquivo em pdf mostrando os cálculos da sub-rede e o print desse cenário rodando no simuladore de rede com aas configurações de um host em cada sub-rede e da execução do ping de um host para o host de cada uma sub-rede.
