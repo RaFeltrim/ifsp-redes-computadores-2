@@ -42,7 +42,7 @@ O repositório está organizado de forma estrita e cronológica de acordo com as
 | :--- | :--- | :---: |
 | [**`Tópico 0 - Boas vindas`**](Tópico%200%20-%20Boas%20vindas/README.md) | Apresentação da disciplina, vídeo institucional e **Atividade 01 (Avaliação Diagnóstica)** | 🟢 Concluído |
 | [**`Tópico 1 - Revisão endereçamento IPv4`**](Tópico%201%20-%20Revisão%20endereçamento%20IPv4/README.md) | Classes A a E, NetID/Broadcast, FLSM, 50 exercícios e **Atividades 02 a 07** com Packet Tracer | 🟢 Concluído |
-| [**`Tópico 2 - Configuração de Rotas`**](Tópico%202%20-%20Configuração%20de%20Rotas/README.md) | Roteamento em Camada 3 (L3), rotas estáticas (`ip route`), rota padrão e protocolos dinâmicos | ⏳ Planejado |
+| [**`Tópico 2 - Configuração de Rotas`**](Tópico%202%20-%20Configuração%20de%20Rotas/README.md) | Roteamento em Camada 3 (L3), rotas estáticas (`ip route`), rota padrão e protocolos dinâmicos | 🟢 Em Andamento |
 | [**`Tópico 3 - Configuração de Serviços de Rede`**](Tópico%203%20-%20Configuração%20de%20Serviços%20de%20Rede/README.md) | Implementação no simulador: Servidor DHCP, Servidor DNS, HTTP/Web e E-mail | ⏳ Planejado |
 | [**`Tópico 4 - Montagem do ambiente virtual`**](Tópico%204%20-%20Montagem%20do%20ambiente%20virtual%20de%20trabalho/README.md) | Hipervisores (VirtualBox/VMware), Linux Debian/Ubuntu Server e adaptadores virtuais | ⏳ Planejado |
 | [**`Tópico 5 - Configurações Iniciais`**](Tópico%205%20-%20Configurações%20Iniciais/README.md) | Administração de rede no Linux, configuração de interfaces (`netplan`, `ifupdown`) e SSH | ⏳ Planejado |
@@ -53,7 +53,7 @@ O repositório está organizado de forma estrita e cronológica de acordo com as
 
 ---
 
-## 🗺️ Mapa Consolidado de Entregas Homologadas (Atividades 01 a 13)
+## 🗺️ Mapa Consolidado de Entregas Homologadas (Tópico 1: Atividades 01 a 13)
 
 | Atividade | Tema Central | Principais Conceitos & Protocolos | Documento PDF | Guia Markdown | Simulador / Script |
 | :---: | :--- | :--- | :---: | :---: | :---: |
@@ -70,6 +70,14 @@ O repositório está organizado de forma estrita e cronológica de acordo com as
 | **`11`** | **Sub-redes (Pt 6)** | 6 Setores corporativos (14 hosts cada), particionamento `/28` no Packet Tracer *(Prazo: 31/08)* | [PDF](Tópico%201%20-%20Revisão%20endereçamento%20IPv4/Entregas%20via%20moodle/11.%20Sub-redes%20(Pt%206)%20-%20Rafael%20F%20.pdf) | — | Topologia + Ping |
 | **`12`** | **Sub-redes (Pt 7)** | 2 Laboratórios de Faculdade (45 hosts cada), particionamento `/26` no Packet Tracer *(Prazo: 31/08)* | [PDF](Tópico%201%20-%20Revisão%20endereçamento%20IPv4/Entregas%20via%20moodle/12.%20Sub-redes%20(Pt%207)%20-%20Rafael%20F%20.pdf) | — | Topologia + Ping |
 | **`13`** | **Sub-redes (Pt 8)** | VLSM avançado: 3 sub-redes (50 hosts `/26`) + 2 sub-redes (30 hosts `/27`) na mesma Classe C *(Prazo: 31/08)* | [PDF](Tópico%201%20-%20Revisão%20endereçamento%20IPv4/Entregas%20via%20moodle/13.%20Sub-redes%20(Pt%208)%20-%20Rafael%20F%20.pdf) | — | Topologia + Ping |
+
+---
+
+## 🗺️ Mapa Consolidado - Tópico 2: Roteamento
+
+| Atividade | Tema Central | Principais Conceitos & Protocolos | Documento PDF | Guia Markdown | Simulador / Script |
+| :---: | :--- | :--- | :---: | :---: | :---: |
+| **`2.1`** | **Roteamento Estático 01** | Interligação de 3 LANs Distintas (Classes A, B e C) em Roteador L3 | [PDF](Tópico%202%20-%20Configuração%20de%20Rotas/Entregas%20via%20moodle/2.1%20-%20Exercicio%20pratico%20-%20Roteamento%20estatico%2001%20-%20Rafael%20F%20.pdf) | — | Topologia + Pings |
 
 ---
 
