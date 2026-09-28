@@ -78,6 +78,12 @@ O repositório está organizado de forma estrita e cronológica de acordo com as
 | Atividade | Tema Central | Principais Conceitos & Protocolos | Documento PDF | Guia Markdown | Simulador / Script |
 | :---: | :--- | :--- | :---: | :---: | :---: |
 | **`2.1`** | **Roteamento Estático 01** | Interligação de 3 LANs Distintas (Classes A, B e C) em Roteador L3 | [PDF](Tópico%202%20-%20Configuração%20de%20Rotas/Entregas%20via%20moodle/2.1%20-%20Exercicio%20pratico%20-%20Roteamento%20estatico%2001%20-%20Rafael%20F%20.pdf) | — | Topologia + Pings |
+| **`2.2`** | **Roteamento Estático 02** | Roteamento entre Múltiplas LANs (Screenshot) | [PDF](Tópico%202%20-%20Configuração%20de%20Rotas/Entregas%20via%20moodle/2.2%20-%20Exercicio%20pratico%20-%20Roteamento%20estatico%2002%20-%20Rafael%20F%20.pdf) | — | Config + Pings |
+| **`2.3`** | **Roteamento Estático 03** | Configuração Topologia 3 Roteadores | [PDF](Tópico%202%20-%20Configuração%20de%20Rotas/Entregas%20via%20moodle/2.3%20-%20Exercicio%20pratico%20-%20Roteamento%20estatico%2003%20-%20Rafael%20F%20.pdf) | — | Config + Pings |
+| **`2.4`** | **Roteamento Estático 04** | VLSM de Rede 165.214.32.0/24 (3 x /26 e 2 x /27) em 5 Routers | [PDF](Tópico%202%20-%20Configuração%20de%20Rotas/Entregas%20via%20moodle/2.4%20-%20Exercicio%20pratico%20-%20Roteamento%20estatico%2004%20-%20Rafael%20F%20.pdf) | — | VLSM + Pings |
+| **`2.5`** | **Roteamento Estático 05** | Simulação Exercício Roteadores (PDF Referência) | [PDF](Tópico%202%20-%20Configuração%20de%20Rotas/Entregas%20via%20moodle/2.5%20-%20Exercicio%20pratico%20-%20Roteamento%20estatico%2005%20-%20Rafael%20F%20.pdf) | — | Rotas Padrão |
+| **`2.6`** | **Roteamento Dinâmico 06** | Implementação RIPv2 (Routing Information Protocol) | [PDF](Tópico%202%20-%20Configuração%20de%20Rotas/Entregas%20via%20moodle/2.6%20-%20Exercicio%20pratico%20-%20Roteamento%20dinamico%2006%20-%20Rafael%20F%20.pdf) | — | RIPv2 Config |
+| **`2.7`** | **Roteamento Dinâmico 07** | RIPv2 em Topologia Completa | [PDF](Tópico%202%20-%20Configuração%20de%20Rotas/Entregas%20via%20moodle/2.7%20-%20Exercicio%20pratico%20-%20Roteamento%20dinamico%2007%20-%20Rafael%20F%20.pdf) | — | RIPv2 + Pings |
 
 ---
 
